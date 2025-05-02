@@ -37,7 +37,7 @@ token是`napcat`，以确定是否已经启动napcat。
 输入以下命令启动napcat并登录到十三：
 
 ```zsh
-napcat start 2704945442
+sudo napcat start 2704945442
 ```
 
 接下来浏览器进入：
@@ -55,7 +55,7 @@ tmux new -s 终端名（如：qq）
 后运行：
 
 ```zsh
-napcat log 2704945442
+sudo napcat log 2704945442
 ```
 
 之后`ctrl B`后按`D`即可让这个终端在后台运行，想查看日志时运行：
@@ -153,8 +153,8 @@ token是`napcat`，以确定是否已经启动napcat。
 
 输入以下命令启动napcat并登录到十三：
 
-```zsh
-napcat start 2704945442
+```bash
+sudo napcat start 2704945442
 ```
 
 接下来浏览器进入：
@@ -165,8 +165,8 @@ http://127.0.0.1:6099/
 
 如果你需要在终端查看日志，请运行：
 
-```zsh
-napcat log 2704945442
+```bash
+sudo napcat log 2704945442
 ```
 
 ### 三：启动十三本体
@@ -175,25 +175,25 @@ napcat log 2704945442
 ![新建标签页](新建标签页.jpg)
 进入bot0.6目录：
 
-```zsh
+```bash
 cd ~/bot0.6
 ```
 
 进入虚拟环境：
 
-```zsh
+```bash
 source maibot/bin/activate
 ```
 
 进入MaiBot目录：
 
-```zsh
+```bash
 cd MaiBot
 ```
 
 启动十三本体：
 
-```zsh
+```bash
 nb run
 ```
 
