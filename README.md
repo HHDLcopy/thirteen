@@ -1,4 +1,4 @@
-# 十三启动指南
+<font color=Blue> 十三启动指南</font>
 
 ## 方法一
 
